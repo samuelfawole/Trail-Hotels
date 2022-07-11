@@ -1,0 +1,33 @@
+img {
+  width: 32%;
+  height: 30rem;
+  margin-bottom: 1rem;
+  transition: transform 2s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+#gallery div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem;
+}
+@media (max-width: 56.25em) {
+  img {
+    width: 48%;
+  }
+  #gallery div {
+    margin: 3rem 2rem;
+  }
+}
+@media (max-width: 37.5em) {
+  img {
+    width: 96%;
+  }
+  #gallery div {
+    margin: 3rem 1rem;
+    justify-content: center;
+  }
+}

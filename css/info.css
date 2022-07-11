@@ -1,0 +1,72 @@
+h1 {
+  font-size: 4rem;
+  color: #0667a0;
+}
+h2 {
+  font-size: 2rem;
+  color: #0667a0;
+}
+#hotel-info {
+  transform: translateY(8rem);
+  padding: 3.6% 3.6% 10.8%;
+}
+
+@media (max-width: 34.4em) {
+  #hotel-info {
+    transform: translateY(4rem);
+    padding: 0rem 1rem 15rem 0;
+  }
+}
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+}
+.info {
+  border: 2px solid #b6c5d6;
+  border-radius: 1rem;
+  padding: 1.5rem 3%;
+  max-width: 25%;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #0667a0;
+}
+.info ul li {
+  font-family: 'Merriweather', serif;
+  white-space: nowrap;
+  margin: 0 2rem;
+}
+@media (max-width: 56.75em) {
+  .info {
+    max-width: 40%;
+  }
+}
+@media (max-width: 56.75em) {
+  .info {
+    max-width: 70%;
+  }
+}
+.down {
+  transform: rotate(90deg);
+  width: 4rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+.benefit {
+  padding: 2rem;
+  background: linear-gradient(to bottom, #56aec9b3, rgba(6, 103, 160, 0.712));
+  color: #fff;
+  height: 15rem;
+}
+.benefit img {
+  width: 6rem;
+}
+.mgb {
+  margin-bottom: 3rem;
+}
